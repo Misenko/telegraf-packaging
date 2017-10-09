@@ -4,7 +4,7 @@ export PATH=$HOME_DIR/go/bin:$PATH
 export GOPATH=$HOME_DIR/gopath 
 TELEGRAF_PATH=$GOPATH/src/github.com/influxdata/telegraf
 
-git clone $LINK $TELEGRAF_PATH
+git clone $REPOSITORY $TELEGRAF_PATH
 
 cd $TELEGRAF_PATH
 git checkout $BRANCH

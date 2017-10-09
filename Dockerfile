@@ -29,8 +29,8 @@ RUN tar -xzvf go1.9.linux-amd64.tar.gz
 RUN mkdir -p $HOME_DIR/gopath/src/github.com/influxdata/telegraf/
 
 #env variables
-ENV LINK h
-ENV BRANCH m
+ENV REPOSITORY https://github.com/Misenko/telegraf.git
+ENV BRANCH meta
 
 #copy bash
 COPY packaging.sh /home/builder/packaging.sh
